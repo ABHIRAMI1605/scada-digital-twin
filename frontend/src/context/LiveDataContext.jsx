@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import { getReadingHistory } from '../api/client'
 
 const LiveDataContext = createContext(null)
-const WS_URL = 'ws://localhost:8000/ws/live'
+const WS_URL = import.meta.env.VITE_WS_URL || 'ws://localhost:8000/ws/live'
 const HISTORY_SIZE = 60
 
 export function LiveDataProvider({ children }) {
