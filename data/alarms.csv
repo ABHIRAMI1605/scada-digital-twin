@@ -1,0 +1,111 @@
+timestamp,severity,ansi_code,description,value,unit
+2026-06-18T01:10:09+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T01:10:11+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T01:10:13+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T01:10:15+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T01:10:17+00:00,ALARM,51,Overcurrent building,352.55,A
+2026-06-18T01:10:19+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:10:21+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:10:23+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:10:25+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:10:27+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:10:29+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:10:31+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T01:11:09+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T01:11:11+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T01:11:13+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T01:11:15+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T01:11:17+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T01:11:19+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:21+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:23+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:25+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:28+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:30+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:32+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:34+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T01:11:36+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:45+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:47+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:49+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:51+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:53+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:55+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:57+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:46:59+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T04:47:01+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T04:47:03+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T04:47:05+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T04:47:07+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T04:47:33+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T04:47:35+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T04:47:37+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T04:47:40+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-18T04:47:42+00:00,ALARM,51,Overcurrent building,352.55,A
+2026-06-18T04:47:44+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:46+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:48+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:50+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:52+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:54+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:56+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:47:58+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:48:00+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:48:02+00:00,TRIP,51,Sustained overcurrent (thermal),352.55,A
+2026-06-18T04:48:04+00:00,TRIP,51,Sustained overcurrent (thermal),428.48,A
+2026-06-18T04:48:06+00:00,TRIP,51,Sustained overcurrent (thermal),428.48,A
+2026-06-18T04:48:08+00:00,TRIP,51,Sustained overcurrent (thermal),428.48,A
+2026-06-18T12:21:57+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:21:59+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:01+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:03+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:05+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:07+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:09+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:11+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:13+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:15+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:17+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:19+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:21+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:23+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:25+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-18T12:22:27+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:29+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:31+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-18T12:22:33+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T01:30:13+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-21T01:30:15+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-21T01:30:21+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T01:30:23+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:21:59+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:22:01+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:22:03+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:22:05+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:02+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:04+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:06+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:08+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:10+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:12+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:14+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:16+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:18+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:20+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T02:49:22+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:24+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:26+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:28+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:30+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:32+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:34+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:36+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T02:49:38+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T04:17:52+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-21T04:17:54+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-21T04:17:56+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-21T04:17:58+00:00,ALARM,51,Overcurrent building,428.48,A
+2026-06-21T04:18:06+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T04:18:08+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T04:18:10+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T04:18:12+00:00,TRIP,50,Instantaneous overcurrent,611.28,A

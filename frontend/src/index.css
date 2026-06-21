@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-scada-bg: #0f1117;
+  --color-scada-panel: #161922;
+  --color-scada-border: #2a2e3a;
+}
+
+body {
+  background-color: var(--color-scada-bg);
+  color: #e5e7eb;
+  margin: 0;
+}
