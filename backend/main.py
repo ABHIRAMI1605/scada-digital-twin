@@ -1,11 +1,7 @@
 import asyncio
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
-import os
-<<<<<<< HEAD
 
-=======
->>>>>>> 3981198dfa523fd1e0c5298079b9e69c4c02e543
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -65,27 +61,17 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Plant SCADA Backend", lifespan=lifespan)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3981198dfa523fd1e0c5298079b9e69c4c02e543
-allowed_origins = [
-    "http://localhost:5173",
-    "http://localhost:5174",
-]
-frontend_url = os.environ.get("FRONTEND_URL")
-if frontend_url:
-    allowed_origins.append(frontend_url)
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=["http://localhost:5173", "http://localhost:5174"],
+    allow_origin_regex=r"https://scada-digital-twin.*\.vercel\.app",
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+
 class FaultRequest(BaseModel):
-    fault_type: str
+    fault_type: str  # "overload" or "short_circuit"
 
 
 @app.get("/status")
@@ -103,12 +89,14 @@ def get_status():
 def get_latest_reading():
     reading = state.latest_reading()
     if reading is None:
-        raise HTTPException(status_code=503, detail="No readings yet")
+        raise HTTPException(status_code=503, detail="No readings yet — simulation just started")
     return reading
-@app.get("/readings/history")
 
+
+@app.get("/readings/history")
 def get_reading_history(limit: int = 60):
     return state.recent_readings(n=limit)
+
 
 @app.get("/alarms")
 def get_alarms(limit: int = 50):
