@@ -2,7 +2,10 @@ import asyncio
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 import os
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3981198dfa523fd1e0c5298079b9e69c4c02e543
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -62,6 +65,10 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Plant SCADA Backend", lifespan=lifespan)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3981198dfa523fd1e0c5298079b9e69c4c02e543
 allowed_origins = [
     "http://localhost:5173",
     "http://localhost:5174",
