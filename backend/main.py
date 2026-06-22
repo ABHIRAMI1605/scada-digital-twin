@@ -1,6 +1,7 @@
 import asyncio
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
+import os
 
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
@@ -61,13 +62,20 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Plant SCADA Backend", lifespan=lifespan)
 
+allowed_origins = [
+    "http://localhost:5173",
+    "http://localhost:5174",
+]
+frontend_url = os.environ.get("FRONTEND_URL")
+if frontend_url:
+    allowed_origins.append(frontend_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=allowed_origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class FaultRequest(BaseModel):
     fault_type: str
