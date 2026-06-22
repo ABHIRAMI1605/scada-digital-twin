@@ -109,3 +109,9 @@ timestamp,severity,ansi_code,description,value,unit
 2026-06-21T04:18:08+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
 2026-06-21T04:18:10+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
 2026-06-21T04:18:12+00:00,TRIP,50,Instantaneous overcurrent,611.28,A
+2026-06-21T12:58:10+00:00,ALARM,51,Overcurrent building,352.55,A
+2026-06-21T12:58:12+00:00,ALARM,51,Overcurrent building,352.55,A
+2026-06-21T12:58:14+00:00,ALARM,51,Overcurrent building,352.55,A
+2026-06-21T12:58:20+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T12:58:22+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
+2026-06-21T12:58:24+00:00,TRIP,50,Instantaneous overcurrent,687.76,A
